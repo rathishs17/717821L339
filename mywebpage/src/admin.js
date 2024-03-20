@@ -11,9 +11,6 @@ import m1 from "./images/mentor1.jpg";
 import m2 from "./images/mentor2.jpg";
 import m3 from "./images/mentor3.jpg";
 import m4 from "./images/mentor4.jpg";
-import s1 from "./images/student1.jpg";
-import s2 from "./images/student2.jpg";
-import s3 from "./images/student3.jpg";
 import Form from 'react-bootstrap/Form';
 
 import { Link } from 'react-router-dom';

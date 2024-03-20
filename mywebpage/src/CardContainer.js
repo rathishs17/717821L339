@@ -18,7 +18,10 @@ function AdminDashboard() {
     name: "",
     img: "",
     cost: 0,
-    link:""
+    link:"",
+    //rating:0,
+    //discount:0,
+    //Availabiltiy:""
   });
 
   async function fetchdata() {
@@ -122,7 +125,7 @@ function AdminDashboard() {
                 About Us
               </Typography>
               <Typography variant="body2" color="">
-                We are MR Tech company, dedicated to providing the best service to our learners.
+                We are MegaMartOnline company, dedicated to providing the best service to our learners.
               </Typography>
             </Grid>
 
@@ -164,7 +167,7 @@ function AdminDashboard() {
             <Typography variant="body2" color="" align="center">
               {"Copyright © "}
               <Link color="inherit" href="https://your-website.com/">
-                Your Website
+MegaMartOnline
               </Link>{" "}
               {new Date().getFullYear()}
               {"."}

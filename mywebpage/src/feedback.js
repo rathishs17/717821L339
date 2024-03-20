@@ -106,7 +106,7 @@ export default function SimplePaper1() {
       </Dialog>
 
       <Grid marginLeft="47.6%" marginTop="7%">
-        <Grid marginLeft="-6%"><Typography >  &copy; 2023-2024 MR Tech
+        <Grid marginLeft="-6%"><Typography >  &copy; 2023-2024 MegaMartOnline
       </Typography></Grid>
 
         <Grid  marginTop="4%" marginLeft="2%">

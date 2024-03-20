@@ -212,7 +212,9 @@ m1,m2,m3,m4,m2,m3
         <div className="card-container" style={{ transition: 'transform 0.3s', borderRadius: '10px' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
           <div className="card" style={{ width: '200px', height: '250px' }}>
             <img src={v.img} alt={v.name}  style={{ maxWidth: '100%', maxHeight: '100%', borderRadius: '10px' }} />
-            <p style={{color:'black'}}><b>{v.name}{}</b></p>
+            <p style={{color:'black'}}><b>{v.name}</b></p>
+
+
           </div>
         </div>
       </Link>
@@ -395,7 +397,7 @@ m1,m2,m3,m4,m2,m3
             <Typography variant="body2" color="" align="center">
               {"Copyright © "}
               <Link color="inherit" href="https://your-website.com/">
-                MR Tech
+                MegaMartOnline
               </Link>{" "}
               {new Date().getFullYear()}
               {"."}

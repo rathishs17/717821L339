@@ -27,6 +27,25 @@ export default function FormProductData() {
             <Form.Label>Cost</Form.Label>
             <Form.Control type="number" onChange={(e)=>{setFormData({ ...formData, cost:e.target.value })}}  placeholder="Eg: 4500" />
           </Form.Group>
+
+
+
+
+          {/* <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Label>Rating</Form.Label>
+            <Form.Control type="number" onChange={(e)=>{setFormData({ ...formData, cost:e.target.value })}}  placeholder="Eg: 4500" />
+          </Form.Group><Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Label>Discount</Form.Label>
+            <Form.Control type="number" onChange={(e)=>{setFormData({ ...formData, cost:e.target.value })}}  placeholder="Eg: 4500" />
+          </Form.Group> */}
+          {/* <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Label>Availability</Form.Label>
+            <Form.Control type="number" onChange={(e)=>{setFormData({ ...formData, cost:e.target.value })}}  placeholder="Eg: 4500" />
+          </Form.Group> */}
+
+
+
+
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label>product Link</Form.Label>
             <Form.Control type="text" onChange={(e)=>{setFormData({ ...formData, link:e.target.value })}}  placeholder="url" />
